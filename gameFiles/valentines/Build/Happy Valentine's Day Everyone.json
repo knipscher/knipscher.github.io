@@ -1,0 +1,13 @@
+{
+"companyName": "Knipsch",
+"productName": "Valentine's Day",
+"dataUrl": "Happy Valentine's Day Everyone.data.unityweb",
+"wasmCodeUrl": "Happy Valentine's Day Everyone.wasm.code.unityweb",
+"wasmFrameworkUrl": "Happy Valentine's Day Everyone.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1F0109",
+"cacheControl": {"default": "must-revalidate"}
+}
