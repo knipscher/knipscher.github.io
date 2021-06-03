@@ -1,6 +1,6 @@
 ASSET_PREFIX = "";
 SCRIPT_PREFIX = "";
-SCENE_PATH = "1169561.json";
+SCENE_PATH = "1141708.json";
 CONTEXT_OPTIONS = {
     'antialias': true,
     'alpha': false,
@@ -8,7 +8,7 @@ CONTEXT_OPTIONS = {
     'preferWebGl2': true,
     'powerPreference': "default"
 };
-SCRIPTS = [ 49027055, 49027051, 49027059, 49027072 ];
+SCRIPTS = [ 46807838, 46807813, 46807817, 46807848 ];
 CONFIG_FILENAME = "config.json";
 INPUT_SETTINGS = {
     useKeyboard: true,
