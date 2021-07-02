@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Knipscher Interactive</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+    <a href="interactive.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Games & Apps</a>
+    <a href="illustration.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Illustration</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="interactive.html" class="w3-bar-item w3-button w3-padding-large">Games & Apps</a>
+    <a href="illustration.html" class="w3-bar-item w3-button w3-padding-large">Illustration</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Demo Reel -->
+<header class="w3-container w3-black w3-center">
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; margin-top: 51px; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+    <div class='embed-container'>
+        <iframe src='https://www.youtube.com/embed/DaUcy9d8o8M?&loop=1;rel=0&amp;controls=1&amp;autoplay=1&amp;mute=1&amp;start=0" ' frameborder='0' allowfullscreen>
+    </iframe></div>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="max-width: 90%">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Tiptap the Tadpole</h1>
+      <p class="w3-text-grey">Play it <a href = "https://knipsch.itch.io/tiptap-the-tadpole">here</a> on itch.io!
+        <br>
+      <h5 class="w3-padding-32">
+            Tiptap the Tadpole is a local multiplayer game I created for <a href="https://ldjam.com/events/ludum-dare/48/tiptap-the-tadpole-vs-the-menacing-cthonic-horde">Ludum Dare 48: Deeper and Deeper</a>.
+            One player controls Tiptap herself with the keyboard, while the other player puts together monsters with the mouse to chase her.
+            I created everything in the game by myself from scratch in 48 hours, including code, visuals, and audio.
+            Tiptap placed in the top 6% for Innovation, the top 8% for Graphics, and the top 25% overall. 
+            <br> <br> 
+            The project files and code are publicly available <a href="https://github.com/knipscher/Tiptap-the-Tadpole">here on my Github</a>, in case you'd like to know what my code looks like (when I am working very, very fast).
+      </h5>
+          </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="https://www.facebook.com/LizaKnipscherIllustration/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/knipsch"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/lizaknipscher/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
